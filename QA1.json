@@ -1,0 +1,933 @@
+[
+    {
+        "description": "Common Cold",
+        "utterances": [
+            "patient: I think I have a common cold. Can you give me some advice?",
+            "doctor: Get plenty of rest and ensure you get enough sleep. Drink plenty of fluids to stay hydrated. Use a humidifier or steam inhalation to relieve nasal congestion. Use over-the-counter medications containing acetaminophen or ibuprofen to reduce fever and relieve pain."
+        ]
+    },
+    {
+        "description": "Influenza",
+        "utterances": [
+            "patient: I think I have the flu. Do you have any suggestions?",
+            "doctor: Getting a flu vaccine is the best way to prevent influenza. If you get the flu, rest well and drink plenty of fluids. Use over-the-counter medications to relieve symptoms, such as cold medicine and fever reducers. During flu season, avoid contact with infected individuals and maintain good personal hygiene."
+        ]
+    },
+    {
+        "description": "Hypertension",
+        "utterances": [
+            "patient: I have been diagnosed with hypertension. What should I do?",
+            "doctor: Reduce your salt intake to no more than 6 grams per day. Exercise moderately, such as walking or swimming. Maintain a healthy weight and avoid obesity. Quit smoking and limit alcohol intake. Regularly monitor your blood pressure and take antihypertensive medications as prescribed."
+        ]
+    },
+    {
+        "description": "Diabetes",
+        "utterances": [
+            "patient: I have diabetes. Can you give me some advice?",
+            "doctor: Control your diet by balancing your meals and reducing your intake of sugars and fats. Regularly monitor your blood sugar levels and take your medications as prescribed. Exercise moderately to improve your fitness. Take care of your feet to prevent infections. Have regular check-ups to monitor for complications."
+        ]
+    },
+    {
+        "description": "Asthma",
+        "utterances": [
+            "patient: My asthma has been flaring up frequently. Any advice?",
+            "doctor: Avoid known triggers such as pollen, dust, and pet hair. Use your prescribed inhaler regularly to relieve symptoms. Maintain good indoor air quality and avoid smoking and secondhand smoke. Keep warm during cold weather to prevent colds."
+        ]
+    },
+    {
+        "description": "Stomach Ulcer",
+        "utterances": [
+            "patient: I have a stomach ulcer. How can I relieve it?",
+            "doctor: Avoid eating spicy, acidic, or fatty foods. Eat fiber-rich foods like fruits, vegetables, and whole grains. Take your prescribed medications, such as proton pump inhibitors, on time. Stay relaxed and avoid excessive stress. Have regular check-ups to monitor your condition."
+        ]
+    },
+    {
+        "description": "Headache",
+        "utterances": [
+            "patient: I have a severe headache. What should I do?",
+            "doctor: Get plenty of rest and sleep. Drink enough water to stay hydrated. Avoid prolonged exposure to bright light. Take over-the-counter pain relievers like acetaminophen or ibuprofen. Try relaxation techniques like deep breathing, meditation, or massage. If the headache persists or is severe, consult a doctor."
+        ]
+    },
+    {
+        "description": "Stomach Pain",
+        "utterances": [
+            "patient: I have stomach pain. How can I relieve it?",
+            "doctor: Avoid spicy, greasy, and acidic foods, and choose light, easily digestible foods. Eat smaller, more frequent meals instead of large ones. Take antacids or pain relievers, but avoid aspirin or ibuprofen as they can irritate the stomach lining. Stay relaxed and avoid stress. If the pain persists or is accompanied by other symptoms, consult a doctor."
+        ]
+    },
+    {
+        "description": "Fever",
+        "utterances": [
+            "patient: I have a fever. What should I do?",
+            "doctor: Get plenty of rest and sleep. Drink enough water or electrolyte drinks to stay hydrated. Take fever reducers like acetaminophen or ibuprofen. Use a damp cloth or take a lukewarm bath to help lower your body temperature. Monitor your temperature closely; if the fever lasts more than three days or is accompanied by severe symptoms, seek medical attention."
+        ]
+    },
+    {
+        "description": "Back Pain",
+        "utterances": [
+            "patient: I have back pain. How can I manage it?",
+            "doctor: Maintain good posture and avoid lifting heavy objects. Use heat or ice packs to relieve pain. Perform gentle stretching exercises to improve flexibility. Use over-the-counter pain relievers if needed. If the pain persists or is severe, consult a doctor."
+        ]
+    },
+    {
+        "description": "Sinusitis",
+        "utterances": [
+            "patient: I have sinusitis. What should I do?",
+            "doctor: Use saline nasal sprays to relieve congestion. Take over-the-counter decongestants if needed. Drink plenty of fluids and use a humidifier to keep the air moist. Avoid allergens and irritants. If symptoms persist or worsen, consult a doctor."
+        ]
+    },
+    {
+        "description": "Allergy",
+        "utterances": [
+            "patient: I have allergies. How can I manage them?",
+            "doctor: Identify and avoid allergens that trigger your symptoms. Use antihistamines to relieve symptoms. Keep your environment clean and dust-free. Consider allergy testing to identify specific triggers. Consult a doctor if symptoms persist or are severe."
+        ]
+    },
+    {
+        "description": "Gastritis",
+        "utterances": [
+            "patient: I have gastritis. What should I do?",
+            "doctor: Avoid spicy, acidic, and fatty foods. Eat smaller, more frequent meals. Take medications as prescribed to reduce stomach acid. Avoid alcohol and smoking. Manage stress and have regular check-ups."
+        ]
+    },
+    {
+        "description": "Arthritis",
+        "utterances": [
+            "patient: I have arthritis. How can I manage it?",
+            "doctor: Engage in regular, low-impact exercise to maintain joint flexibility. Use anti-inflammatory medications to reduce pain. Apply heat or cold packs to affected areas. Maintain a healthy weight to reduce stress on joints. Consult a doctor for further management options."
+        ]
+    },
+    {
+        "description": "Eczema",
+        "utterances": [
+            "patient: I have eczema. How can I treat it?",
+            "doctor: Use gentle, fragrance-free moisturizers to keep your skin hydrated. Avoid scratching and use anti-itch creams. Identify and avoid triggers that worsen your eczema. Maintain good skin hygiene and consult a dermatologist if needed."
+        ]
+    },
+    {
+        "description": "Psoriasis",
+        "utterances": [
+            "patient: I have psoriasis. What should I do?",
+            "doctor: Use prescribed topical treatments to manage symptoms. Avoid triggers such as stress, alcohol, and smoking. Keep your skin moisturized and follow a healthy diet. Consult a dermatologist for advanced treatment options if necessary."
+        ]
+    },
+    {
+        "description": "Menstrual Cramps",
+        "utterances": [
+            "patient: I have menstrual cramps. How can I relieve them?",
+            "doctor: Use over-the-counter pain relievers such as ibuprofen. Apply heat to your lower abdomen. Engage in regular exercise and maintain a healthy diet. Consider hormonal treatments if cramps are severe. Consult a doctor if pain persists."
+        ]
+    },
+    {
+        "description": "Hemorrhoids",
+        "utterances": [
+            "patient: I have hemorrhoids. What should I do?",
+            "doctor: Use over-the-counter creams or suppositories to relieve symptoms. Take warm sitz baths to reduce discomfort. Increase fiber intake to prevent constipation. Avoid prolonged sitting and consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Peptic Ulcer",
+        "utterances": [
+            "patient: I have a peptic ulcer. How can I manage it?",
+            "doctor: Avoid spicy, acidic, and fatty foods. Take prescribed medications to reduce stomach acid. Avoid alcohol, smoking, and NSAIDs. Eat smaller, more frequent meals and consult a doctor for regular check-ups."
+        ]
+    },
+    {
+        "description": "Sciatica",
+        "utterances": [
+            "patient: I have sciatica. What can I do about it?",
+            "doctor: Use over-the-counter pain relievers to manage pain. Apply heat or cold packs to the affected area. Perform stretching and strengthening exercises. Avoid prolonged sitting and consult a doctor if pain persists."
+        ]
+    },
+    {
+        "description": "Tinnitus",
+        "utterances": [
+            "patient: I have tinnitus. How can I manage it?",
+            "doctor: Avoid exposure to loud noises and use ear protection. Try sound therapy or tinnitus maskers. Maintain good ear hygiene and avoid ototoxic medications. Consult an audiologist or ENT specialist for further evaluation."
+        ]
+    },
+    {
+        "description": "Bloating",
+        "utterances": [
+            "patient: I have bloating. What should I do?",
+            "doctor: Avoid carbonated drinks and foods that cause gas. Eat smaller, more frequent meals and avoid overeating. Use over-the-counter anti-gas medications if needed. Maintain a healthy diet and consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Gout",
+        "utterances": [
+            "patient: I have gout. How can I manage it?",
+            "doctor: Avoid foods high in purines, such as red meat and seafood. Use medications to reduce uric acid levels. Stay hydrated and maintain a healthy weight. Consult a doctor for long-term management and treatment options."
+        ]
+    },
+    {
+        "description": "Sinus Headache",
+        "utterances": [
+            "patient: I have a sinus headache. What should I do?",
+            "doctor: Use saline nasal sprays to relieve congestion. Take over-the-counter pain relievers and decongestants. Apply warm compresses to your face. Maintain good hydration and consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Cough",
+        "utterances": [
+            "patient: I have a persistent cough. What should I do?",
+            "doctor: Stay hydrated and use cough drops or lozenges. Use over-the-counter cough medications as needed. Avoid irritants such as smoke and dust. Consult a doctor if the cough persists or worsens."
+        ]
+    },
+    {
+        "description": "Runny Nose",
+        "utterances": [
+            "patient: I have a runny nose. How can I treat it?",
+            "doctor: Use saline nasal sprays to relieve nasal congestion. Drink plenty of fluids and rest. Use over-the-counter antihistamines or decongestants if needed. Consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Chronic Fatigue",
+        "utterances": [
+            "patient: I am experiencing chronic fatigue. What can I do?",
+            "doctor: Ensure you are getting adequate sleep and manage stress. Maintain a healthy diet and exercise regularly. Consult a doctor for underlying health conditions that may be causing fatigue."
+        ]
+    },
+    {
+        "description": "Constipation",
+        "utterances": [
+            "patient: I am constipated. What should I do?",
+            "doctor: Increase your fiber intake with fruits, vegetables, and whole grains. Drink plenty of water and engage in regular physical activity. Use over-the-counter laxatives if needed, and consult a doctor if constipation persists."
+        ]
+    },
+    {
+        "description": "Diarrhea",
+        "utterances": [
+            "patient: I have diarrhea. How can I manage it?",
+            "doctor: Stay hydrated by drinking water or oral rehydration solutions. Avoid dairy and fatty foods. Use over-the-counter anti-diarrheal medications if needed. Consult a doctor if diarrhea persists for more than a few days."
+        ]
+    },
+    {
+        "description": "Cold Sore",
+        "utterances": [
+            "patient: I have a cold sore. How can I treat it?",
+            "doctor: Use antiviral creams or medications as prescribed. Avoid touching the sore and wash your hands frequently. Use over-the-counter pain relievers if needed. Consult a doctor if the cold sore does not improve."
+        ]
+    },
+    {
+        "description": "Migraine",
+        "utterances": [
+            "patient: I have migraines. What can I do to manage them?",
+            "doctor: Identify and avoid migraine triggers such as certain foods or stress. Use prescribed migraine medications and over-the-counter pain relievers. Maintain a regular sleep schedule and consult a doctor for chronic migraines."
+        ]
+    },
+    {
+        "description": "Insomnia",
+        "utterances": [
+            "patient: I am having trouble sleeping. What should I do?",
+            "doctor: Maintain a regular sleep schedule and create a relaxing bedtime routine. Avoid caffeine and electronic screens before bed. Consider using sleep aids or consulting a sleep specialist if insomnia persists."
+        ]
+    },
+    {
+        "description": "Acid Reflux",
+        "utterances": [
+            "patient: I have acid reflux. How can I relieve it?",
+            "doctor: Avoid spicy, acidic, and fatty foods. Eat smaller meals and avoid lying down immediately after eating. Use over-the-counter antacids or take prescribed medications. Consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Sore Throat",
+        "utterances": [
+            "patient: I have a sore throat. What should I do?",
+            "doctor: Gargle with warm salt water and use throat lozenges. Drink warm fluids and rest your voice. Use over-the-counter pain relievers if needed. Consult a doctor if the sore throat persists or is severe."
+        ]
+    },
+    {
+        "description": "Chest Pain",
+        "utterances": [
+            "patient: I am experiencing chest pain. What should I do?",
+            "doctor: Seek immediate medical attention to rule out serious conditions such as a heart attack. Rest and avoid exertion until evaluated. Consult a doctor for further diagnostic tests and treatment options."
+        ]
+    },
+    {
+        "description": "High Cholesterol",
+        "utterances": [
+            "patient: I have high cholesterol. How can I manage it?",
+            "doctor: Follow a heart-healthy diet low in saturated fats and cholesterol. Engage in regular physical activity. Take prescribed cholesterol-lowering medications. Have regular check-ups to monitor cholesterol levels."
+        ]
+    },
+    {
+        "description": "Kidney Stones",
+        "utterances": [
+            "patient: I have kidney stones. What should I do?",
+            "doctor: Drink plenty of fluids to help pass the stones. Use pain relievers and medications as prescribed. Avoid foods high in oxalates if advised. Consult a urologist for further treatment options if necessary."
+        ]
+    },
+    {
+        "description": "Urinary Tract Infection",
+        "utterances": [
+            "patient: I think I have a urinary tract infection. What should I do?",
+            "doctor: Drink plenty of fluids and urinate frequently. Use antibiotics as prescribed to clear the infection. Avoid irritants such as caffeine and alcohol. Consult a doctor if symptoms persist or worsen."
+        ]
+    },
+    {
+        "description": "Chronic Bronchitis",
+        "utterances": [
+            "patient: I have chronic bronchitis. How can I manage it?",
+            "doctor: Avoid smoking and exposure to irritants. Use prescribed bronchodilators and corticosteroids. Engage in pulmonary rehabilitation exercises. Consult a doctor for regular check-ups and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Pneumonia",
+        "utterances": [
+            "patient: I have pneumonia. What should I do?",
+            "doctor: Get plenty of rest and follow prescribed antibiotics or antivirals. Drink fluids to stay hydrated and use a humidifier to ease breathing. Consult a doctor for follow-up care and to ensure full recovery."
+        ]
+    },
+    {
+        "description": "Anemia",
+        "utterances": [
+            "patient: I have anemia. What should I do?",
+            "doctor: Increase your intake of iron-rich foods and take iron supplements if prescribed. Follow a balanced diet and avoid foods that inhibit iron absorption. Have regular blood tests to monitor your condition."
+        ]
+    },
+    {
+        "description": "Hives",
+        "utterances": [
+            "patient: I have hives. How can I treat them?",
+            "doctor: Use antihistamines to relieve itching and swelling. Avoid known triggers and irritants. Use topical treatments to soothe the skin. Consult a doctor if hives persist or if there are signs of a severe allergic reaction."
+        ]
+    },
+    {
+        "description": "Shingles",
+        "utterances": [
+            "patient: I have shingles. What should I do?",
+            "doctor: Use antiviral medications as prescribed to reduce the severity and duration of symptoms. Apply soothing creams or calamine lotion to the affected area. Consult a doctor for pain management and further care."
+        ]
+    },
+    {
+        "description": "Celiac Disease",
+        "utterances": [
+            "patient: I have celiac disease. How should I manage it?",
+            "doctor: Follow a strict gluten-free diet to prevent symptoms and complications. Read food labels carefully and avoid cross-contamination. Consult a dietitian for meal planning and regular check-ups."
+        ]
+    },
+    {
+        "description": "Fibromyalgia",
+        "utterances": [
+            "patient: I have fibromyalgia. What can I do to manage it?",
+            "doctor: Engage in regular low-impact exercise and practice stress management techniques. Use medications to manage pain and sleep disturbances. Consult a specialist for a comprehensive treatment plan."
+        ]
+    },
+    {
+        "description": "Multiple Sclerosis",
+        "utterances": [
+            "patient: I have multiple sclerosis. What should I do?",
+            "doctor: Follow a treatment plan that may include medications to manage symptoms and slow disease progression. Engage in physical therapy and occupational therapy. Consult a neurologist for ongoing care and support."
+        ]
+    },
+    {
+        "description": "Lupus",
+        "utterances": [
+            "patient: I have lupus. What should I do?",
+            "doctor: Follow a treatment plan that includes medications to manage inflammation and immune system activity. Avoid sunlight exposure and manage stress. Regular check-ups with a rheumatologist are essential."
+        ]
+    },
+    {
+        "description": "Crohn's Disease",
+        "utterances": [
+            "patient: I have Crohn's disease. How can I manage it?",
+            "doctor: Follow a treatment plan that includes medications to reduce inflammation and manage symptoms. Maintain a balanced diet and avoid trigger foods. Consult a gastroenterologist for ongoing care and monitoring."
+        ]
+    },
+    {
+        "description": "Ulcerative Colitis",
+        "utterances": [
+            "patient: I have ulcerative colitis. What should I do?",
+            "doctor: Use prescribed medications to manage inflammation and symptoms. Follow a balanced diet and avoid foods that trigger flare-ups. Consult a gastroenterologist for regular check-ups and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Gastric Bypass",
+        "utterances": [
+            "patient: I have had gastric bypass surgery. What should I do post-surgery?",
+            "doctor: Follow a post-surgery diet plan and take vitamins and supplements as prescribed. Engage in regular physical activity and monitor your weight. Consult your surgeon or dietitian for ongoing support and adjustments."
+        ]
+    },
+    {
+        "description": "Bipolar Disorder",
+        "utterances": [
+            "patient: I have bipolar disorder. How can I manage it?",
+            "doctor: Follow a treatment plan that includes medications and therapy. Maintain a stable routine and monitor mood changes. Consult a mental health professional for ongoing support and adjustments to your treatment plan."
+        ]
+    },
+    {
+        "description": "Depression",
+        "utterances": [
+            "patient: I have depression. What should I do?",
+            "doctor: Follow a treatment plan that may include medications and therapy. Engage in regular physical activity and maintain a healthy lifestyle. Consult a mental health professional for ongoing support and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Anxiety Disorder",
+        "utterances": [
+            "patient: I have an anxiety disorder. What can I do about it?",
+            "doctor: Follow a treatment plan that may include medications and therapy. Practice relaxation techniques and manage stress. Consult a mental health professional for ongoing support and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Osteoporosis",
+        "utterances": [
+            "patient: I have osteoporosis. How can I manage it?",
+            "doctor: Ensure adequate intake of calcium and vitamin D. Engage in weight-bearing exercises to strengthen bones. Use medications to prevent bone loss if prescribed. Consult a doctor for regular bone density tests and ongoing management."
+        ]
+    },
+    {
+        "description": "Hyperthyroidism",
+        "utterances": [
+            "patient: I have hyperthyroidism. What should I do?",
+            "doctor: Use medications to control thyroid hormone levels. Monitor your symptoms and have regular thyroid function tests. Follow a balanced diet and consult an endocrinologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Hypothyroidism",
+        "utterances": [
+            "patient: I have hypothyroidism. What should I do?",
+            "doctor: Take thyroid hormone replacement medication as prescribed. Monitor your symptoms and have regular thyroid function tests. Follow a balanced diet and consult an endocrinologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Epilepsy",
+        "utterances": [
+            "patient: I have epilepsy. What should I do?",
+            "doctor: Take prescribed antiepileptic medications as directed. Avoid known triggers for seizures and maintain a regular sleep schedule. Consult a neurologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Parkinson's Disease",
+        "utterances": [
+            "patient: I have Parkinson's disease. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and therapy to manage symptoms. Engage in regular physical activity and occupational therapy. Consult a neurologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Alzheimer's Disease",
+        "utterances": [
+            "patient: I have Alzheimer's disease. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and cognitive therapy. Create a safe and supportive environment and engage in mental exercises. Consult a neurologist for ongoing care and support."
+        ]
+    },
+    {
+        "description": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "utterances": [
+            "patient: I have COPD. How can I manage it?",
+            "doctor: Avoid smoking and exposure to irritants. Use prescribed inhalers and medications to manage symptoms. Engage in pulmonary rehabilitation exercises and consult a pulmonologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Asthma",
+        "utterances": [
+            "patient: I have asthma. How can I manage it?",
+            "doctor: Avoid known triggers such as pollen, dust, and pet dander. Use your prescribed inhalers regularly and take any other prescribed medications. Maintain good indoor air quality and monitor your symptoms closely."
+        ]
+    },
+    {
+        "description": "Rheumatoid Arthritis",
+        "utterances": [
+            "patient: I have rheumatoid arthritis. What should I do?",
+            "doctor: Follow a treatment plan that includes medications to reduce inflammation and manage symptoms. Engage in physical therapy and maintain a healthy diet. Consult a rheumatologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Liver Disease",
+        "utterances": [
+            "patient: I have liver disease. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and lifestyle changes. Avoid alcohol and maintain a healthy diet. Have regular liver function tests and consult a hepatologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Kidney Disease",
+        "utterances": [
+            "patient: I have kidney disease. How can I manage it?",
+            "doctor: Follow a treatment plan that includes medications and dietary modifications. Monitor your kidney function with regular tests. Consult a nephrologist for ongoing care and management of your condition."
+        ]
+    },
+    {
+        "description": "Gallstones",
+        "utterances": [
+            "patient: I have gallstones. What should I do?",
+            "doctor: Follow a low-fat diet to reduce symptoms. Consult a surgeon if symptoms are severe or if surgery is recommended. Use medications as prescribed to manage symptoms and consult a doctor for ongoing care."
+        ]
+    },
+    {
+        "description": "Chronic Kidney Disease",
+        "utterances": [
+            "patient: I have chronic kidney disease. How can I manage it?",
+            "doctor: Follow a treatment plan that includes medications and lifestyle changes. Monitor your kidney function with regular tests and maintain a healthy diet. Consult a nephrologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Epileptic Seizure",
+        "utterances": [
+            "patient: I have epileptic seizures. What should I do?",
+            "doctor: Follow a treatment plan that includes antiepileptic medications. Avoid known seizure triggers and monitor your symptoms closely. Consult a neurologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Acne",
+        "utterances": [
+            "patient: I have acne. How can I treat it?",
+            "doctor: Use topical treatments or medications as prescribed. Maintain good skin hygiene and avoid picking at acne lesions. Consult a dermatologist for further treatment options if necessary."
+        ]
+    },
+    {
+        "description": "Coughing Up Blood",
+        "utterances": [
+            "patient: I am coughing up blood. What should I do?",
+            "doctor: Seek immediate medical attention to identify the cause of bleeding. Avoid irritants and consult a pulmonologist for further diagnostic tests and treatment."
+        ]
+    },
+    {
+        "description": "Bleeding Gums",
+        "utterances": [
+            "patient: My gums are bleeding. What should I do?",
+            "doctor: Maintain good oral hygiene and use a soft-bristled toothbrush. Avoid hard or abrasive foods. Consult a dentist for a thorough evaluation and treatment plan."
+        ]
+    },
+    {
+        "description": "Weight Loss",
+        "utterances": [
+            "patient: I am experiencing unexplained weight loss. What should I do?",
+            "doctor: Consult a doctor to identify the underlying cause of weight loss. Maintain a balanced diet and monitor your weight. Follow a treatment plan based on the diagnosis."
+        ]
+    },
+    {
+        "description": "Nausea",
+        "utterances": [
+            "patient: I am feeling nauseous. What should I do?",
+            "doctor: Drink clear fluids and eat small, bland meals. Avoid strong odors and triggers. Use anti-nausea medications if prescribed. Consult a doctor if nausea persists or worsens."
+        ]
+    },
+    {
+        "description": "Vomiting",
+        "utterances": [
+            "patient: I am vomiting. What should I do?",
+            "doctor: Stay hydrated by drinking clear fluids in small amounts. Rest and avoid solid foods until vomiting subsides. Use anti-nausea medications if prescribed. Consult a doctor if vomiting persists or is severe."
+        ]
+    },
+    {
+        "description": "Jaundice",
+        "utterances": [
+            "patient: I have jaundice. What should I do?",
+            "doctor: Consult a doctor for further evaluation and diagnostic tests. Avoid alcohol and consult a specialist for treatment based on the underlying cause."
+        ]
+    },
+    {
+        "description": "Dry Skin",
+        "utterances": [
+            "patient: I have dry skin. What should I do?",
+            "doctor: Use moisturizers and avoid harsh soaps. Maintain hydration by drinking plenty of water. Consult a dermatologist for further evaluation if dry skin persists."
+        ]
+    },
+    {
+        "description": "Swollen Feet",
+        "utterances": [
+            "patient: My feet are swollen. What should I do?",
+            "doctor: Elevate your feet and avoid prolonged standing. Consult a doctor to identify the underlying cause and follow a treatment plan accordingly."
+        ]
+    },
+    {
+        "description": "Pimples",
+        "utterances": [
+            "patient: I have pimples. How can I treat them?",
+            "doctor: Use over-the-counter acne treatments and maintain good skin hygiene. Avoid picking at pimples and consult a dermatologist for persistent or severe cases."
+        ]
+    },
+    {
+        "description": "Chronic Pain",
+        "utterances": [
+            "patient: I am experiencing chronic pain. What should I do?",
+            "doctor: Follow a comprehensive pain management plan that may include medications and therapy. Consult a pain specialist for ongoing support and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Back Pain",
+        "utterances": [
+            "patient: I have back pain. What should I do?",
+            "doctor: Maintain good posture and use ergonomic furniture. Engage in regular physical activity and stretching exercises. Use over-the-counter pain relievers if needed and consult a doctor if pain persists."
+        ]
+    },
+    {
+        "description": "Leg Pain",
+        "utterances": [
+            "patient: I have leg pain. What should I do?",
+            "doctor: Rest and elevate your leg. Apply ice or heat as needed and use over-the-counter pain relievers. Consult a doctor if leg pain persists or worsens."
+        ]
+    },
+    {
+        "description": "Headache",
+        "utterances": [
+            "patient: I have a headache. What can I do?",
+            "doctor: Use over-the-counter pain relievers and rest in a quiet, dark room. Stay hydrated and avoid known headache triggers. Consult a doctor if headaches are frequent or severe."
+        ]
+    },
+    {
+        "description": "Skin Rash",
+        "utterances": [
+            "patient: I have a skin rash. What should I do?",
+            "doctor: Avoid scratching the rash and use antihistamines or topical treatments as needed. Maintain good skin hygiene and consult a dermatologist if the rash persists or worsens."
+        ]
+    },
+    {
+        "description": "Appendicitis",
+        "utterances": [
+            "patient: I think I have appendicitis. What should I do?",
+            "doctor: Seek immediate medical attention. Appendicitis often requires surgical removal of the appendix. Avoid eating or drinking anything until you've been evaluated."
+        ]
+    },
+    {
+        "description": "Bronchitis",
+        "utterances": [
+            "patient: I have bronchitis. What should I do?",
+            "doctor: Stay hydrated and rest. Use a humidifier to ease coughing and congestion. Over-the-counter cough medicines and expectorants can help. Consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Sinusitis",
+        "utterances": [
+            "patient: I have sinusitis. What can I do?",
+            "doctor: Use nasal saline sprays and stay hydrated. Apply warm compresses to relieve sinus pressure. Over-the-counter decongestants can help, but consult a doctor if symptoms persist."
+        ]
+    },
+    {
+        "description": "Sore Throat",
+        "utterances": [
+            "patient: I have a sore throat. What should I do?",
+            "doctor: Gargle with warm salt water and drink soothing liquids. Use throat lozenges or sprays for relief. Consult a doctor if the sore throat persists or is accompanied by other symptoms."
+        ]
+    },
+    {
+        "description": "Ear Infection",
+        "utterances": [
+            "patient: I think I have an ear infection. What should I do?",
+            "doctor: Avoid getting water in your ear and use ear drops as prescribed. Over-the-counter pain relievers can help manage discomfort. Consult a doctor for an examination and appropriate treatment."
+        ]
+    },
+    {
+        "description": "Conjunctivitis (Pink Eye)",
+        "utterances": [
+            "patient: I have conjunctivitis. What should I do?",
+            "doctor: Avoid touching your eyes and wash your hands frequently. Use prescribed eye drops and avoid sharing towels or pillows. Consult a doctor if symptoms worsen or do not improve."
+        ]
+    },
+    {
+        "description": "Hives",
+        "utterances": [
+            "patient: I have hives. How can I treat them?",
+            "doctor: Take antihistamines as prescribed and avoid known allergens. Use anti-itch creams to relieve discomfort. Consult a doctor if hives persist or if you have difficulty breathing."
+        ]
+    },
+    {
+        "description": "Psoriasis",
+        "utterances": [
+            "patient: I have psoriasis. What should I do?",
+            "doctor: Use topical treatments such as corticosteroids or moisturizers. Avoid triggers like stress or certain medications. Consult a dermatologist for ongoing management and treatment options."
+        ]
+    },
+    {
+        "description": "Eczema",
+        "utterances": [
+            "patient: I have eczema. How can I manage it?",
+            "doctor: Use moisturizers regularly and avoid irritants. Apply topical corticosteroids as prescribed. Maintain good skin hygiene and consult a dermatologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Gout",
+        "utterances": [
+            "patient: I have gout. What should I do?",
+            "doctor: Take prescribed medications to manage uric acid levels. Avoid foods high in purines and stay hydrated. Consult a doctor for regular monitoring and adjustment of your treatment plan."
+        ]
+    },
+    {
+        "description": "Chronic Fatigue Syndrome",
+        "utterances": [
+            "patient: I have chronic fatigue syndrome. How can I manage it?",
+            "doctor: Follow a treatment plan that includes medication and lifestyle changes. Engage in light physical activity and manage stress. Consult a specialist for ongoing support and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Fibromyalgia",
+        "utterances": [
+            "patient: I have fibromyalgia. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and physical therapy. Manage stress and engage in gentle exercises. Consult a specialist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Irritable Bowel Syndrome (IBS)",
+        "utterances": [
+            "patient: I have IBS. What should I do?",
+            "doctor: Follow a diet plan that avoids trigger foods and manage stress. Use medications as prescribed to relieve symptoms. Consult a gastroenterologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Diverticulitis",
+        "utterances": [
+            "patient: I have diverticulitis. How can I manage it?",
+            "doctor: Follow a diet plan with low-fiber foods during flare-ups and gradually reintroduce fiber. Use medications as prescribed. Consult a gastroenterologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Peptic Ulcer",
+        "utterances": [
+            "patient: I have a peptic ulcer. What should I do?",
+            "doctor: Use prescribed medications to reduce stomach acid and follow a bland diet. Avoid irritants such as alcohol and NSAIDs. Consult a gastroenterologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Hemorrhoids",
+        "utterances": [
+            "patient: I have hemorrhoids. What should I do?",
+            "doctor: Use over-the-counter creams or suppositories for relief. Avoid straining during bowel movements and increase fiber intake. Consult a doctor if symptoms persist or worsen."
+        ]
+    },
+    {
+        "description": "Menstrual Cramps",
+        "utterances": [
+            "patient: I have menstrual cramps. What should I do?",
+            "doctor: Use over-the-counter pain relievers and apply heat to the lower abdomen. Engage in regular physical activity and consult a doctor if cramps are severe or persist."
+        ]
+    },
+    {
+        "description": "Premenstrual Syndrome (PMS)",
+        "utterances": [
+            "patient: I have PMS. What can I do about it?",
+            "doctor: Follow a balanced diet and engage in regular physical activity. Use medications or supplements as prescribed. Consult a doctor for ongoing support and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Menopause",
+        "utterances": [
+            "patient: I am going through menopause. How can I manage symptoms?",
+            "doctor: Follow a healthy lifestyle and consider hormone replacement therapy if appropriate. Use medications to manage symptoms like hot flashes. Consult a doctor for ongoing support and adjustments."
+        ]
+    },
+    {
+        "description": "Postpartum Depression",
+        "utterances": [
+            "patient: I have postpartum depression. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and therapy. Seek support from family and mental health professionals. Consult a doctor for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Sleep Apnea",
+        "utterances": [
+            "patient: I have sleep apnea. How can I manage it?",
+            "doctor: Use a CPAP machine as prescribed and maintain a healthy weight. Avoid alcohol and sedatives. Consult a sleep specialist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Restless Legs Syndrome (RLS)",
+        "utterances": [
+            "patient: I have restless legs syndrome. What should I do?",
+            "doctor: Use medications as prescribed and engage in regular physical activity. Avoid caffeine and alcohol. Consult a doctor for ongoing care and management of symptoms."
+        ]
+    },
+    {
+        "description": "Benign Prostatic Hyperplasia (BPH)",
+        "utterances": [
+            "patient: I have BPH. How can I manage it?",
+            "doctor: Use medications to relieve symptoms and consider lifestyle changes. Avoid fluids before bedtime and consult a urologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Prostatitis",
+        "utterances": [
+            "patient: I have prostatitis. What should I do?",
+            "doctor: Use prescribed antibiotics or anti-inflammatory medications. Avoid irritants like alcohol and spicy foods. Consult a urologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Urinary Tract Infection (UTI)",
+        "utterances": [
+            "patient: I think I have a UTI. What should I do?",
+            "doctor: Take prescribed antibiotics and increase fluid intake. Avoid irritants and consult a doctor for further evaluation and treatment."
+        ]
+    },
+    {
+        "description": "Kidney Stones",
+        "utterances": [
+            "patient: I have kidney stones. What should I do?",
+            "doctor: Drink plenty of fluids to help pass the stones. Use pain relievers as prescribed and consult a doctor if symptoms persist or if the stones are large."
+        ]
+    },
+    {
+        "description": "Bladder Infection",
+        "utterances": [
+            "patient: I have a bladder infection. What should I do?",
+            "doctor: Take prescribed antibiotics and drink plenty of fluids. Avoid irritants and consult a doctor if symptoms persist or worsen."
+        ]
+    },
+    {
+        "description": "Menstrual Irregularities",
+        "utterances": [
+            "patient: I have irregular menstrual cycles. What should I do?",
+            "doctor: Track your menstrual cycle and consult a gynecologist. Use medications or hormonal treatments if prescribed. Consult a doctor for further evaluation and treatment options."
+        ]
+    },
+    {
+        "description": "Pelvic Inflammatory Disease (PID)",
+        "utterances": [
+            "patient: I think I have PID. What should I do?",
+            "doctor: Take prescribed antibiotics and avoid sexual activity until treatment is complete. Consult a gynecologist for ongoing care and management of symptoms."
+        ]
+    },
+    {
+        "description": "Sexually Transmitted Infections (STIs)",
+        "utterances": [
+            "patient: I think I have an STI. What should I do?",
+            "doctor: Get tested for STIs and take prescribed medications. Avoid sexual activity until treatment is complete and inform your partners. Consult a healthcare provider for further evaluation and care."
+        ]
+    },
+    {
+        "description": "Cystitis",
+        "utterances": [
+            "patient: I have cystitis. What should I do?",
+            "doctor: Take prescribed antibiotics and increase fluid intake. Avoid irritants like caffeine and consult a doctor if symptoms persist or worsen."
+        ]
+    },
+    {
+        "description": "Chronic Kidney Disease",
+        "utterances": [
+            "patient: I have chronic kidney disease. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and dietary changes. Monitor kidney function regularly and consult a nephrologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Liver Disease",
+        "utterances": [
+            "patient: I have liver disease. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and lifestyle changes. Avoid alcohol and consult a hepatologist for ongoing care and management of liver function."
+        ]
+    },
+    {
+        "description": "Gallstones",
+        "utterances": [
+            "patient: I have gallstones. What should I do?",
+            "doctor: Follow a treatment plan that may include medications or surgery. Avoid fatty foods and consult a surgeon for further evaluation and management."
+        ]
+    },
+    {
+        "description": "Pancreatitis",
+        "utterances": [
+            "patient: I have pancreatitis. What should I do?",
+            "doctor: Follow a treatment plan that includes fasting and medications. Avoid alcohol and consult a gastroenterologist for ongoing care and management of symptoms."
+        ]
+    },
+    {
+        "description": "Thyroid Disorders",
+        "utterances": [
+            "patient: I have a thyroid disorder. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and regular monitoring of thyroid levels. Consult an endocrinologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Adrenal Insufficiency",
+        "utterances": [
+            "patient: I have adrenal insufficiency. What should I do?",
+            "doctor: Take prescribed hormone replacement therapy and monitor for symptoms of adrenal crisis. Consult an endocrinologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Rheumatoid Arthritis",
+        "utterances": [
+            "patient: I have rheumatoid arthritis. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and physical therapy. Manage stress and consult a rheumatologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Osteoporosis",
+        "utterances": [
+            "patient: I have osteoporosis. What should I do?",
+            "doctor: Take prescribed medications and engage in weight-bearing exercises. Ensure adequate intake of calcium and vitamin D. Consult an endocrinologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Multiple Sclerosis",
+        "utterances": [
+            "patient: I have multiple sclerosis. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and physical therapy. Manage stress and consult a neurologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Parkinson's Disease",
+        "utterances": [
+            "patient: I have Parkinson's disease. What should I do?",
+            "doctor: Follow a treatment plan that includes medications and physical therapy. Engage in regular physical activity and consult a neurologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Epilepsy",
+        "utterances": [
+            "patient: I have epilepsy. What should I do?",
+            "doctor: Take prescribed anti-seizure medications and avoid known seizure triggers. Consult a neurologist for ongoing care and management of seizures."
+        ]
+    },
+    {
+        "description": "Migraine",
+        "utterances": [
+            "patient: I have migraines. What should I do?",
+            "doctor: Use prescribed medications to manage symptoms and avoid migraine triggers. Maintain a regular sleep schedule and consult a neurologist for ongoing care and treatment adjustments."
+        ]
+    },
+    {
+        "description": "Vertigo",
+        "utterances": [
+            "patient: I have vertigo. What should I do?",
+            "doctor: Avoid sudden head movements and stay hydrated. Use medications to manage symptoms and consult a neurologist for further evaluation and treatment."
+        ]
+    },
+    {
+        "description": "Dizziness",
+        "utterances": [
+            "patient: I feel dizzy. What should I do?",
+            "doctor: Sit or lie down to prevent falls and avoid sudden movements. Stay hydrated and consult a doctor if dizziness persists or is accompanied by other symptoms."
+        ]
+    },
+    {
+        "description": "Tinnitus",
+        "utterances": [
+            "patient: I have tinnitus. What should I do?",
+            "doctor: Avoid loud noises and consider using white noise machines. Use medications if prescribed and consult an audiologist or ENT specialist for further evaluation and management."
+        ]
+    },
+    {
+        "description": "Hearing Loss",
+        "utterances": [
+            "patient: I have hearing loss. What should I do?",
+            "doctor: Get a hearing test and consider using hearing aids if recommended. Avoid loud noises and consult an audiologist for ongoing care and management."
+        ]
+    },
+    {
+        "description": "Sore Muscles",
+        "utterances": [
+            "patient: I have sore muscles. What can I do?",
+            "doctor: Rest and apply heat or cold packs to the affected area. Use over-the-counter pain relievers if needed and engage in gentle stretching exercises. Consult a doctor if soreness persists."
+        ]
+    },
+    {
+        "description": "Muscle Strain",
+        "utterances": [
+            "patient: I have a muscle strain. What should I do?",
+            "doctor: Rest and apply ice to the affected area. Use over-the-counter pain relievers and consult a doctor if pain persists or if the strain is severe."
+        ]
+    },
+    {
+        "description": "Joint Pain",
+        "utterances": [
+            "patient: I have joint pain. What can I do?",
+            "doctor: Rest and use over-the-counter pain relievers. Apply heat or cold packs and consult a doctor if the pain is severe or persistent."
+        ]
+    },
+    {
+        "description": "Swelling",
+        "utterances": [
+            "patient: I have swelling in my legs. What should I do?",
+            "doctor: Elevate your legs and use compression stockings if recommended. Avoid standing for long periods and consult a doctor if swelling persists or is accompanied by other symptoms."
+        ]
+    }
+]
